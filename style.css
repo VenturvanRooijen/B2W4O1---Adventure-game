@@ -1,0 +1,65 @@
+#bgimg {
+   display: block;
+   margin: 0 auto;
+   height: 442px;
+   width: 785px;
+}
+
+#title {
+    text-align: center;
+    font-size: 20px;
+}
+
+#character {
+    display: block;
+    height: 150px;
+    position: relative;
+    right: 300px;
+    top: 550px;
+    margin: 0 auto;
+}
+
+
+#enemy {
+    visibility: hidden;
+    display: block;
+    height: 150px;
+    position: relative;
+    left: 250px;
+    top: 400px;
+    margin: 0 auto;
+}
+
+section {
+    background-color: rgb(133, 133, 133);
+    height: 1000px
+}
+
+#description {
+    text-align: center;
+}
+
+#buttons {
+    display: block;
+    text-align: center;
+}
+
+#button1, #button2, #button3, #button4 {
+    background-color: red;
+    height: 50px;
+    margin: 20px;
+    width: 300px;
+
+}
+
+#button3, #button4 {
+    display: none;
+}
+
+#zwaard {
+    visibility: hidden;
+    position: relative;
+    height: 50px;
+    left: 700px;
+    top: 700px;
+}
